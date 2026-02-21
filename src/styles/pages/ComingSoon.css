@@ -1,0 +1,42 @@
+/* ============================================
+   COMING SOON / PLACEHOLDER PAGES
+   ============================================ */
+
+.coming-soon-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 65vh;
+  text-align: center;
+  gap: 12px;
+}
+
+.coming-soon-icon {
+  font-size: 56px;
+  margin-bottom: 8px;
+}
+
+.coming-soon-title {
+  font-size: 28px;
+  font-weight: 800;
+  color: #1e293b;
+  margin: 0;
+}
+
+.coming-soon-sub {
+  font-size: 15px;
+  color: #94a3b8;
+  margin: 0;
+}
+
+.coming-soon-badge {
+  margin-top: 8px;
+  padding: 6px 18px;
+  background: #f0f4ff;
+  color: #4f6ef7;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid #c7d2fe;
+}

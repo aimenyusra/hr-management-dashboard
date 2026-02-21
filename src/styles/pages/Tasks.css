@@ -1,0 +1,21 @@
+.create-task-btn{
+  padding: 9px 18px;
+  background: #4f6ef7;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+.create-task-btn:hover {
+  background: #3b5ce4;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(79, 110, 247, 0.35);
+}
+.header-actions {
+  margin-right: 8px;
+}

@@ -1,0 +1,107 @@
+/* ============================================
+   DEPARTMENT CHART - Full Width Horizontal
+   ============================================ */
+
+.dept-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  margin-bottom: 16px;
+}
+
+.dept-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.dept-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 2px;
+}
+
+.dept-subtitle {
+  font-size: 12px;
+  color: #94a3b8;
+  margin: 0;
+}
+
+.dept-total {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #f8fafc;
+  padding: 6px 14px;
+  border-radius: 8px;
+}
+
+.dept-total-label {
+  font-size: 12px;
+  color: #64748b;
+  font-weight: 500;
+}
+
+.dept-total-value {
+  font-size: 18px;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+.dept-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dept-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.dept-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #1e293b;
+  width: 100px;
+  flex-shrink: 0;
+}
+
+.dept-bar-track {
+  flex: 1;
+  height: 10px;
+  background: #f1f5f9;
+  border-radius: 99px;
+  overflow: hidden;
+  position: relative;
+}
+
+.dept-bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 0.8s ease;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.dept-pct-label {
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+  padding-right: 5px;
+}
+
+.dept-count-badge {
+  font-size: 12px;
+  font-weight: 700;
+  color: #64748b;
+  width: 36px;
+  text-align: right;
+  flex-shrink: 0;
+}

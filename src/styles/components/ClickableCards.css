@@ -1,0 +1,123 @@
+/* ============================================
+   CLICKABLE CARD STYLES (Add to existing CSS)
+   ============================================ */
+
+/* KPI Cards - Clickable */
+.kpi-card--clickable {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.kpi-card--clickable:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.kpi-card--clickable:active {
+  transform: translateY(-1px);
+}
+
+/* Attendance Overview - Clickable */
+.attendance-card--clickable {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.attendance-card--clickable:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.attendance-card--clickable .view-details {
+  color: #4f6ef7;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.attendance-card--clickable:hover .view-details {
+  color: #3b5ce4;
+  transform: translateX(4px);
+}
+
+/* Pending Requests - Clickable */
+.pending-card--clickable {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.pending-card--clickable:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.view-all-btn {
+  background: none;
+  border: none;
+  color: #4f6ef7;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.view-all-btn:hover {
+  background: #f0f4ff;
+  color: #3b5ce4;
+  transform: translateX(2px);
+}
+
+/* Upcoming Leave - Clickable */
+.upcoming-card--clickable {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.upcoming-card--clickable:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.upcoming-card--clickable .view-details {
+  color: #4f6ef7;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.upcoming-card--clickable:hover .view-details {
+  color: #3b5ce4;
+  transform: translateX(4px);
+}
+
+/* Recent Activity - Clickable */
+.activity-card--clickable {
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.activity-card--clickable:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.activity-card--clickable .view-details {
+  color: #4f6ef7;
+  font-size: 13px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+.activity-card--clickable:hover .view-details {
+  color: #3b5ce4;
+  transform: translateX(4px);
+}
+
+/* Shared view-details style */
+.view-details {
+  display: inline-block;
+  transition: all 0.2s;
+}

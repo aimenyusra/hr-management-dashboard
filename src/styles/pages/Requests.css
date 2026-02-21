@@ -1,0 +1,29 @@
+/* ============================================
+   REQUESTS PAGE - Layout Only
+   ============================================ */
+
+/* New Request Button */
+.new-request-btn {
+  padding: 10px 20px;
+  background: #4f6ef7;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.new-request-btn:hover {
+  background: #3b5ce4;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(79, 110, 247, 0.35);
+}
+
+/* Header action slot */
+.header-action {
+  margin-right: 8px;
+}

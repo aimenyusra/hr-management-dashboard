@@ -1,0 +1,27 @@
+/* ============================================
+   REQUEST KPI CARDS - 4 in a row
+   ============================================ */
+
+.request-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 24px;
+}
+
+.kpi-card--active {
+  box-shadow: 0 0 0 3px rgba(79, 110, 247, 0.25);
+  transform: translateY(-2px);
+}
+
+.kpi-active-indicator {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.05em;
+}

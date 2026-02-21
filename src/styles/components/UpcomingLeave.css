@@ -1,0 +1,102 @@
+/* ============================================
+   UPCOMING LEAVE
+   ============================================ */
+
+.upcoming-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease;
+}
+
+.upcoming-card--clickable {
+  cursor: pointer;
+}
+
+.upcoming-card--clickable:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.upcoming-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.upcoming-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0;
+}
+
+.upcoming-card--clickable .view-details {
+  font-size: 13px;
+  font-weight: 600;
+  color: #4f6ef7;
+  transition: all 0.2s;
+}
+
+.upcoming-card--clickable:hover .view-details {
+  color: #3b5ce4;
+  transform: translateX(4px);
+}
+
+.leave-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.leave-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px;
+  background: #f8fafc;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.leave-item:hover {
+  background: #f1f5f9;
+}
+
+.leave-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.leave-info {
+  flex: 1;
+}
+
+.leave-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1e293b;
+  margin: 0 0 4px 0;
+}
+
+.leave-type {
+  font-size: 12px;
+  color: #64748b;
+  margin: 0 0 4px 0;
+}
+
+.leave-dates {
+  font-size: 12px;
+  color: #94a3b8;
+  margin: 0;
+}

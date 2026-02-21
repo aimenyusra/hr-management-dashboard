@@ -1,0 +1,54 @@
+/* ============================================
+   GLOBAL STYLES - Base & Layout Only
+   ============================================ */
+
+* { 
+  margin: 0; 
+  padding: 0; 
+  box-sizing: border-box; 
+}
+
+body {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  background: #f1f5fb;
+}
+
+/* ============================================
+   APP LAYOUT
+   ============================================ */
+.app-layout {
+  display: flex;
+  height: 100vh;
+  background: #f1f5fb;
+  overflow: hidden;
+}
+
+.main-content {
+  flex: 1;
+  overflow: auto;
+  padding: 28px 30px;
+}
+
+/* ============================================
+   SHARED UTILITIES
+   ============================================ */
+.avatar {
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #fff;
+  flex-shrink: 0;
+}
+
+.badge { 
+  padding: 3px 10px; 
+  border-radius: 20px; 
+  font-size: 12px; 
+  font-weight: 600; 
+}
+
+.badge-approved { background: #dcfce7; color: #16a34a; }
+.badge-pending  { background: #fef9c3; color: #ca8a04; }
+.badge-rejected { background: #fee2e2; color: #dc2626; }

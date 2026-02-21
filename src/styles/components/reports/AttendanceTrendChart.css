@@ -1,0 +1,154 @@
+/* ============================================
+   SHARED CHART CARD STYLES
+   (Used by: AttendanceTrendChart, DepartmentBarChart, TaskStatusChart)
+   ============================================ */
+
+ .chart-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px 24px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.06);
+  border: 1px solid #f1f5f9;
+  margin-bottom: 32px;
+  
+} 
+
+.chart-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+
+.chart-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: #1e293b;
+  margin: 0 0 3px;
+}
+
+.chart-subtitle {
+  font-size: 12px;
+  color: #94a3b8;
+  margin: 0;
+}
+
+.chart-badge {
+  padding: 5px 14px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+/* ── Attendance Trend SVG ── */
+.trend-svg {
+  width: 100%;
+ 
+  height: 170px;
+  display: block;
+
+}
+
+/* ── Department Bar Chart ── */
+.dept-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.dept-bar-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.dept-bar-name {
+  font-size: 12px;
+  font-weight: 600;
+  color: #1e293b;
+  width: 90px;
+  flex-shrink: 0;
+}
+
+.dept-bar-track {
+  flex: 1;
+  height: 10px;
+  background: #f1f5f9;
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.dept-bar-fill {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 0.8s ease;
+}
+
+.dept-bar-count {
+  font-size: 12px;
+  font-weight: 700;
+  color: #64748b;
+  width: 32px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+/* ── Task Status Donut ── */
+.donut-layout {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.donut-wrapper {
+  flex-shrink: 0;
+  width: 140px;
+}
+
+.donut-svg {
+  width: 140px;
+  height: 140px;
+}
+
+.donut-legend {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.legend-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.legend-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.legend-label {
+  font-size: 13px;
+  color: #1e293b;
+  font-weight: 500;
+  flex: 1;
+}
+
+.legend-value {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1e293b;
+  width: 24px;
+  text-align: right;
+}
+
+.legend-pct {
+  font-size: 12px;
+  font-weight: 600;
+  width: 36px;
+  text-align: right;
+}

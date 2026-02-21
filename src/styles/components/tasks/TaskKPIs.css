@@ -1,0 +1,10 @@
+/* ============================================
+   TASK KPI CARDS - reuses emp-kpi styles
+   ============================================ */
+
+.task-kpi-group {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 16px;
+}
