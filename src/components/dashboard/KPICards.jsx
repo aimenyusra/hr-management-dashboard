@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../styles/components/KPICards.css";
+import "../../styles/components/dashboard/KPICards.css";
 
 const kpis = [
   { title: "Total Employees", value: "800",  sub: "Active Employees",  accent: "#4f6ef7", color: "#f0f4ff", route: "/employees"  },

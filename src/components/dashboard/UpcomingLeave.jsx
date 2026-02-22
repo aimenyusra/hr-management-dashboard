@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../styles/components/UpcomingLeave.css";
+import "../../styles/components/dashboard/UpcomingLeave.css";
 
 const leaves = [
   { name: "Sarah Khan", type: "Casual Leave", dates: "12 March - 13 March • 2 days", avatar: "SK", color: "#8b5cf6" },

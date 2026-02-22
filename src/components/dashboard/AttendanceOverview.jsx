@@ -1,5 +1,5 @@
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
-import "../styles/components/AttendanceOverview.css";
+import "../../styles/components/dashboard/AttendanceOverview.css";
 import { useNavigate } from "react-router-dom";
 
 const attendanceData = [

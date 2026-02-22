@@ -1,9 +1,9 @@
 import Header from "../components/Header";
-import KPICards from "../components/KPICards";
-import AttendanceOverview from "../components/AttendanceOverview";
-import PendingRequests from "../components/PendingRequests";
-import UpcomingLeave from "../components/UpcomingLeave";
-import RecentActivity from "../components/RecentActivity";
+import KPICards from "../components/dashboard/KPICards";
+import AttendanceOverview from "../components/dashboard/AttendanceOverview";
+import PendingRequests from "../components/dashboard/PendingRequests";
+import UpcomingLeave from "../components/dashboard/UpcomingLeave";
+import RecentActivity from "../components/dashboard/RecentActivity";
 import "../styles/pages/Dashboard.css";
 import "../styles/components/ClickableCards.css"
 

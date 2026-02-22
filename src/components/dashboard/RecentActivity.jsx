@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../styles/components/RecentActivity.css";
+import "../../styles/components/dashboard/RecentActivity.css";
 
 const activities = [
   { icon: "📄", text: "John Doe submitted a leave request",         time: "2 mins ago" },

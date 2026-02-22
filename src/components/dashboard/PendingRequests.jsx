@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import "../styles/components/PendingRequests.css";
+import "../../styles/components/dashboard/PendingRequests.css";
 
 const requests = [
   { name: "Justin Lipshutz", type: "Leave",     date: "22 Feb", status: "Approved", avatar: "JL" },
